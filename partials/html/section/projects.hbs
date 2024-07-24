@@ -15,7 +15,7 @@
     {{/if}}
     </h3>
     {{#if start}}<span class="tenure">{{dateRange .}}</span>{{/if}}
-    {{ #each summary.split('\n')}}
+    {{#each summary.split('\n')}}
     <p>{{{ this }}}</p>
     {{/each}}
     {{{ summary }}}
